@@ -1,0 +1,14 @@
+.checkout-container {
+  text-align: center;
+  color: rgb(226, 154, 59);
+}
+
+.success {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.thanks {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

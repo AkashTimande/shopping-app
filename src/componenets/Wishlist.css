@@ -1,0 +1,11 @@
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty-msg {
+  font-size: x-large;
+  text-align: center;
+  font-family: cursive;
+  padding: 4px;
+}

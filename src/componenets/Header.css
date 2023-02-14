@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  margin: 1% 2%;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.go-cart {
+  padding: 8px 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 8px;
+  background-color: navy;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+.go-wishlist {
+  padding: 8px 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 8px;
+  background-color: saddlebrown;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+}
+
+.header-title {
+  padding: 20px;
+  font-size: xx-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  color: rgb(130, 53, 231);
+}
+
+.page-title {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 24px;
+}
+
+.badge {
+  border-radius: 24px;
+  width: 10px;
+  background-color: beige;
+  color: black;
+}
+
+.hide-badge {
+  visibility: hidden;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
